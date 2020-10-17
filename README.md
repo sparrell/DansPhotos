@@ -12,4 +12,10 @@ Step one:
       
 Edit Readme via webinterface to include step one info, and commit to main branch
 
-Step 2 and beyond will be in branches
+Step 2:
+- fork repo by clicking fork in upper right hand corner
+   + this creates github copy (fork) of your own
+- 
+- git checkout step2
+- edit readme in IDE
+-
