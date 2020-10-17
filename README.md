@@ -13,6 +13,7 @@ Step one:
 Edit Readme via webinterface to include step one info, and commit to main branch
 
 Step 2:
+Note some of the following tasks may be able to be performed from IDE instead of Terminal command line
 - fork repo by clicking fork in upper right hand corner
    + this creates github copy (fork) of your own
 - on your forked repo, click on green "code" button dropdown, and copy the link by clicking on the little clipboard
