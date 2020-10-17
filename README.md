@@ -28,3 +28,7 @@ Note some of the following tasks may be able to be performed from IDE instead of
 - git push # push the commits to github
 - look on github and see branch step3 has these changes
 - make a pull request - ie request these changes be put in original github that your github repo was forked from
+
+Step 3
+- TBD
+- will add initial phoenix stuff here
