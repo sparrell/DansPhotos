@@ -30,5 +30,26 @@ Note some of the following tasks may be able to be performed from IDE instead of
 - make a pull request - ie request these changes be put in original github that your github repo was forked from
 
 Step 3
-- TBD
-- will add initial phoenix stuff here
+- install elixir per https://elixir-lang.org/install.html
+   * install homebrew per 
+   * brew update
+   * brew install elixir 
+- install phonenx per https://hexdocs.pm/phoenix/installation.html#content
+   * NOTE - this is install without liveview. doing over using liveview is a later step
+   * mix local.hex
+   * mix archive.install hex phx_new 1.5.6
+   * ???brew install node ??? or node.js?
+   * ???brew install postgresql ??? + turn it on?
+- get phonenix up and running per https://hexdocs.pm/phoenix/up_and_running.html
+   * mix phx.new $WHATNAME
+      - type Y to install dependencies
+      - figure out .gitignore per webpage
+   * cd $WHATNAME
+   * ?? configure your database in config/dev.exs
+   * mix ecto.create
+   * Start your Phoenix app with either of
+      - mix phx.server # foreground
+      - iex -S mix phx.server # interactive elixir shell for developemnt
+      - ? # in background
+      - 
+- ...
