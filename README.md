@@ -41,7 +41,7 @@ Step 3
    * mix local.hex
    * mix archive.install hex phx_new 1.5.7
    * install node.js https://nodejs.org/en/download/
-      - ???brew install node ??? or node.js?
+      - brew install node
    * install postgreSQL https://wiki.postgresql.org/wiki/Detailed_installation_guides
       - * ???brew install postgresql ??? + turn it on?
 - phoenix up and running
