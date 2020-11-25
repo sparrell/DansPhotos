@@ -30,5 +30,15 @@ Note some of the following tasks may be able to be performed from IDE instead of
 - make a pull request - ie request these changes be put in original github that your github repo was forked from
 
 Step 3
-- TBD
-- will add initial phoenix stuff here
+- install homebrew if not already on mac
+   * https://brew.sh/
+- use brew to install elixir
+   * https://elixir-lang.org/install.html
+   * should install erlang as well
+- install phoenix
+   * mix local.hex
+   * mix archive.install hex phx_new 1.5.7
+   * # install node.js https://nodejs.org/en/download/
+   * # install postgreSQL https://wiki.postgresql.org/wiki/Detailed_installation_guides
+- phoenix up and running
+   * https://hexdocs.pm/phoenix/up_and_running.html
