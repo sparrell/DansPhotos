@@ -40,9 +40,9 @@ Step 3
 - install phoenix
    * mix local.hex
    * mix archive.install hex phx_new 1.5.7
-   * # install node.js https://nodejs.org/en/download/
+   * install node.js https://nodejs.org/en/download/
       - ???brew install node ??? or node.js?
-   * # install postgreSQL https://wiki.postgresql.org/wiki/Detailed_installation_guides
+   * install postgreSQL https://wiki.postgresql.org/wiki/Detailed_installation_guides
       - * ???brew install postgresql ??? + turn it on?
 - phoenix up and running
    * https://hexdocs.pm/phoenix/up_and_running.html
