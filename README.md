@@ -34,11 +34,26 @@ Step 3
    * https://brew.sh/
 - use brew to install elixir
    * https://elixir-lang.org/install.html
+   * brew update
+   * brew install elixir
    * should install erlang as well
 - install phoenix
    * mix local.hex
    * mix archive.install hex phx_new 1.5.7
    * # install node.js https://nodejs.org/en/download/
+      - ???brew install node ??? or node.js?
    * # install postgreSQL https://wiki.postgresql.org/wiki/Detailed_installation_guides
+      - * ???brew install postgresql ??? + turn it on?
 - phoenix up and running
    * https://hexdocs.pm/phoenix/up_and_running.html
+   * NOTE - this is install without liveview. doing over using liveview is a later step
+   * mix phx.new $WHATNAME
+      - type Y to install dependencies
+      - figure out .gitignore per webpage
+   * cd $WHATNAME
+   * ?? configure your database in config/dev.exs
+   * mix ecto.create
+   * Start your Phoenix app with either of
+      - mix phx.server # foreground
+      - iex -S mix phx.server # interactive elixir shell for developemnt
+      - ? # in background
