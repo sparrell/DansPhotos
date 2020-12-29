@@ -42,18 +42,31 @@ Step 3
    * mix archive.install hex phx_new 1.5.7
    * install node.js https://nodejs.org/en/download/
       - brew install node
-   * install postgreSQL https://wiki.postgresql.org/wiki/Detailed_installation_guides
-      - * ???brew install postgresql ??? + turn it on?
-- phoenix up and running
+   * install postgreSQL
+      - https://wiki.postgresql.org/wiki/Detailed_installation_guides
+      - https://postgresapp.com/ is easiest
+         (after removing others if needed)
+      - initalize a new server
    * https://hexdocs.pm/phoenix/up_and_running.html
    * NOTE - this is install without liveview. doing over using liveview is a later step
    * mix phx.new $WHATNAME
       - type Y to install dependencies
       - figure out .gitignore per webpage
    * cd $WHATNAME
-   * ?? configure your database in config/dev.exs
    * mix ecto.create
    * Start your Phoenix app with either of
       - mix phx.server # foreground
       - iex -S mix phx.server # interactive elixir shell for developemnt
       - ? # in background
+
+- Step 4 - Phoenix with liveview
+   * new directory, setup with git/github
+   * https://www.phoenixframework.org/
+   * mix phx.new $WHATNAME --live
+   * cd $WHATNAME
+   * mix ecto.create
+   * # up and running
+    - iex -S mix phx.server
+    - http://localhost:4000/ - home
+    - http://localhost:4000/dashboard/home - dashboard
+    - http://localhost:4000/game - tetris (once programmed)
